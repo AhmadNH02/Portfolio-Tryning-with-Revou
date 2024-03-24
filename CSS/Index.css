@@ -1,0 +1,20 @@
+/*layouting CSS with flex*/
+.container {
+  border: 5px solid #c1deee;
+  display: flex;
+  justify-content: flex-end; /*try to change this center for example*/
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #f2f3f8;
+  border: 1px solid;
+  background-color: #3ab5c8;
+}
+
+.logo {
+  margin-right: auto;
+}
+/*tidak hanya bisa di setting margin seperti ini(auto) tapi juga bisa di setting layoutingnya dengan skala berapa per berapa*/
